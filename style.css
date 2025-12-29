@@ -1,4 +1,85 @@
-h1 {
-  text-align: center;
-  line-height: 1;
+* {
+  font-family: "Courier New", Courier, monospace;
 }
+
+h1,
+h3 {
+  color: purple;
+}
+
+#login {
+  background-color: antiquewhite;
+}
+
+#signup {
+  background-color: purple;
+  color: white;
+}
+
+.upvote {
+  background-color: lightgreen;
+  color: black;
+}
+
+p a {
+  color: rgb(155, 62, 78);
+}
+
+p + h3 {
+  text-decoration: underline;
+}
+
+div > input {
+  background-color: darksalmon;
+}
+
+nav li {
+  color: hotpink;
+}
+
+nav li a {
+  color: brown;
+}
+
+input[type="text"] {
+  color: blueviolet;
+}
+
+input[type="password"] {
+  color: green;
+}
+
+#myId p {
+  color: orange;
+}
+
+button:hover {
+  background-color: black;
+  color: whitesmoke;
+}
+
+h3:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+p::selection {
+  background-color: greenyellow;
+}
+
+/* * {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    color : #1b74e4;
+}
+
+#searchbtn {
+    background-color: black;
+    color: white;
+}
+
+.userbtn {
+    background-color: aqua;
+} */
