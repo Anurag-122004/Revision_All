@@ -1,85 +1,34 @@
-* {
-  font-family: "Courier New", Courier, monospace;
+#container {
+  width: 45px;
+  background-color: lightblue;
+  height: 110px;
+  padding-top: 5px;
+  padding-left: 2px;
+  padding-bottom: 10px;
+  border: 2px solid black;
 }
 
-h1,
-h3 {
-  color: purple;
+#red {
+  width: 30px;
+  height: 30px;
+  background-color: red;
+  margin: 5px;
+  border-radius: 50%;
+  border: 2px solid black;
 }
-
-#login {
-  background-color: antiquewhite;
+#yellow {
+  width: 30px;
+  height: 30px;
+  background-color: yellow;
+  margin: 5px;
+  border-radius: 50%;
+  border: 2px solid black;
 }
-
-#signup {
-  background-color: purple;
-  color: white;
+#green {
+  width: 30px;
+  height: 30px;
+  background-color: green;
+  margin: 5px;
+  border-radius: 50%;
+  border: 2px solid black;
 }
-
-.upvote {
-  background-color: lightgreen;
-  color: black;
-}
-
-p a {
-  color: rgb(155, 62, 78);
-}
-
-p + h3 {
-  text-decoration: underline;
-}
-
-div > input {
-  background-color: darksalmon;
-}
-
-nav li {
-  color: hotpink;
-}
-
-nav li a {
-  color: brown;
-}
-
-input[type="text"] {
-  color: blueviolet;
-}
-
-input[type="password"] {
-  color: green;
-}
-
-#myId p {
-  color: orange;
-}
-
-button:hover {
-  background-color: black;
-  color: whitesmoke;
-}
-
-h3:hover {
-  text-decoration: none;
-  cursor: pointer;
-}
-
-p::selection {
-  background-color: greenyellow;
-}
-
-/* * {
-    font-family: 'Courier New', Courier, monospace;
-}
-
-h1 {
-    color : #1b74e4;
-}
-
-#searchbtn {
-    background-color: black;
-    color: white;
-}
-
-.userbtn {
-    background-color: aqua;
-} */
