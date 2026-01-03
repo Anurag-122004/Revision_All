@@ -16,6 +16,14 @@
   border-radius: 50%;
   border: 2px solid black;
 }
+#red {
+  width: 30px;
+  height: 30px;
+  background-color: red;
+  margin: 5px;
+  border-radius: 50%;
+  border: 2px solid black;
+}
 #yellow {
   width: 30px;
   height: 30px;
