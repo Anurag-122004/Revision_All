@@ -17,5 +17,10 @@ img {
   width: 100%;
   border-radius: 5px 5px 0 0;
   border-radius: 5px 5px 0 0;
+  position: relative;
+  position : static;
+  /position absolute means that the element is positioned relative to its first positioned (not static) ancestor element. If /there is no such ancestor, it will be positioned relative to the initial containing block (usually the viewport)
+
+
 }
 
