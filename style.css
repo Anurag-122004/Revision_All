@@ -19,8 +19,16 @@ img {
   border-radius: 5px 5px 0 0;
   position: relative;
   position : static;
-  /position absolute means that the element is positioned relative to its first positioned (not static) ancestor element. If /there is no such ancestor, it will be positioned relative to the initial containing block (usually the viewport)
+  position absolute means that the element is positioned relative to its first positioned (not static) ancestor element. If /there is no such ancestor, it will be positioned relative to the initial containing block (usually the viewport)
 
+  display : flex means that the element is a flex container, which allows you to use flexbox layout properties to arrange its children. When you set display: flex on an element, its direct children become flex items, and you can control their layout using various flexbox properties.
 
+  justify-content:  means that the flex items (children of the flex container) will be aligned along the main axis (horizontal by default) according to the specified value. For example, justify-content: center will center the flex items horizontally within the container, while justify-content: space-between will distribute them evenly with space between them.
+
+  flex wrap means that the flex items will wrap onto multiple lines if they exceed the width of the container. When you set flex-wrap: wrap on a flex container, the items will automatically move to the next line when there isn't enough space to fit them in a single row. This allows for a more responsive layout, especially when dealing with varying screen sizes or dynamic content.
+
+  align items means that the flex items will be aligned along the cross axis (vertical by default) according to the specified value. For example, align-items: center will vertically center the flex items within the container, while align-items: stretch will stretch them to fill the container's height.
+
+  align content means that the flex lines (rows of flex items) will be aligned along the cross axis when there are multiple lines of items. For example, align-content: center will center the lines of items vertically within the container, while align-content: space-between will distribute the lines evenly with space between them.
 }
 
