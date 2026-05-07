@@ -1,4 +1,4 @@
-.card {
+/* .card {
   width : 200px;
   height : 250px;
   border: 2px solid black;
@@ -30,5 +30,26 @@ img {
   align items means that the flex items will be aligned along the cross axis (vertical by default) according to the specified value. For example, align-items: center will vertically center the flex items within the container, while align-items: stretch will stretch them to fill the container's height.
 
   align content means that the flex lines (rows of flex items) will be aligned along the cross axis when there are multiple lines of items. For example, align-content: center will center the lines of items vertically within the container, while align-content: space-between will distribute the lines evenly with space between them.
+
+  Differmnce between Grid and Flexbox:
+  1. Flexbox is a one-dimensional layout system, while Grid is a two-dimensional layout system. Flexbox is designed for laying out items in a single row or column, while Grid allows for both rows and columns, making it more suitable for complex layouts.
+  2. Flexbox is better for distributing space along a single axis, while Grid is better for creating complex grid-based layouts with precise control over both rows and columns.
+}
+ */
+
+.container {
+  width: 600px;
+  height: 400px;
+  background-color: black;
+  display: grid;
+  /* grid-template-rows: 100px 100px 100px; */
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
 }
 
+.item1 {
+  /* width: 100px;
+  height: 77px; */
+  background-color: palegoldenrod;
+  border: 2px solid black;
+}
